@@ -10,7 +10,9 @@
   "homepage": "https://github.com/saadq/resumake",
   "scripts": {
     "start": "nodemon index.js --exec babel-node",
-    "build": "babel src -d lib --copy-files",
+    "start:prod": "NODE_ENV=production node lib/bootstrap.js",
+    "build": "babel src -d lib --copy-files && npm run copy:client",
+    "copy:client": "rm -rf dist && cp -r ../client/dist dist",
     "lint": "blyss | snazzy",
     "fix": "blyss --fix",
     "format": "prettier --write \"src/**/*.js\"",
@@ -40,6 +42,7 @@
     "koa-combine-routers": "^2.0.1",
     "koa-helmet": "^3.3.0",
     "koa-router": "^7.2.1",
+    "koa-static": "^4.0.3",
     "koa2-formidable": "^1.0.2",
     "node-latex": "^2.5.0",
     "pretty-latex": "^0.1.0",

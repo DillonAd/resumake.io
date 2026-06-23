@@ -1,0 +1,10 @@
+node_modules
+app/client/node_modules
+app/server/node_modules
+.git
+.github
+*.md
+.env
+.env.*
+.all-contributorsrc
+license

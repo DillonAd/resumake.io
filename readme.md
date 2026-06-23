@@ -1,3 +1,19 @@
+I liked this site a lot. Since it isn't hosted anymore, I took some time and Dockerized it so there can be a static version that is still usable.
+
+### Running
+
+Run the following command
+
+```bash
+docker run -it --rm -p 3000:3000 DillonAd/resumake.io:latest
+```
+
+and then visit `http://localhost:3000` to enjoy the site as it was.
+
+---
+
+<br/>
+
 ![resumake-logo](https://i.imgur.com/Y4JmhrV.png)
 
 ---
@@ -37,7 +53,6 @@ All development is currently happening in the Resumake rewrite which is in the [
   <img src="https://opencollective.com/resumake/sponsors/badge.svg">
 </a>
 
-
 ![resumake](https://i.imgur.com/QUoFVmG.png)
 
 Simply choose a template, fill in as much (or as little) info as you want, and then press <kbd>Make</kbd> to see your output. You can change your template at any point to see how your resume looks with different designs.
@@ -45,25 +60,28 @@ Simply choose a template, fill in as much (or as little) info as you want, and t
 When you're happy with your result, you can download the resume as a PDF, TeX, or JSON document. The JSON output is compatible with [JSONResume](https://jsonresume.org).
 
 ## Contributing
+
 Contributions are very welcome, and I am always happy to help out first-timers contributors with any questions you may have. You can check out the [contributing.md](./contributing.md) for an in-depth guide on how to get started on working on the app.
 
 ## Donations
+
 If you liked the project and would like to show your appreciation, [donations](https://opencollective.com/resumake/donate#) are very much appreciated. Or, if you'd just like to say thanks, feel free to send me an [email](mailto:saad@saadq.com).
 
 ## Credits
+
 Thanks very much to the creators of the LaTeX templates used in this website.
 
-* [Rensselaer Career Development Center](https://www.rpi.edu/dept/arc/training/latex/resumes/)
-* [Byungjin Park](https://github.com/posquit0)
-* [Scott Clark](https://github.com/sc932)
-* [Debarghya Das](https://github.com/deedy)
-* [Xavier Danaux](https://github.com/xdanaux)
-* [Ratul Saha](https://github.com/RatulSaha)
-* [Daniil Belyakov](https://github.com/dnl-blkv)
-* [Frits Wenneker](https://www.overleaf.com/latex/templates/your-new-cv/xqzhcmqkqrtw)
-
+- [Rensselaer Career Development Center](https://www.rpi.edu/dept/arc/training/latex/resumes/)
+- [Byungjin Park](https://github.com/posquit0)
+- [Scott Clark](https://github.com/sc932)
+- [Debarghya Das](https://github.com/deedy)
+- [Xavier Danaux](https://github.com/xdanaux)
+- [Ratul Saha](https://github.com/RatulSaha)
+- [Daniil Belyakov](https://github.com/dnl-blkv)
+- [Frits Wenneker](https://www.overleaf.com/latex/templates/your-new-cv/xqzhcmqkqrtw)
 
 ## Contributors
+
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -72,6 +90,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | [<img src="https://avatars0.githubusercontent.com/u/5976377?v=4" width="100px;"/><br /><sub><b>Kaitlin Mahar</b></sub>](https://github.com/kmahar)<br />[🤔](#ideas-kmahar "Ideas, Planning, & Feedback") | [<img src="https://avatars1.githubusercontent.com/u/8508355?v=4" width="100px;"/><br /><sub><b>Riseley</b></sub>](https://github.com/Riseley)<br />[💻](https://github.com/saadq/resumake/commits?author=Riseley "Code") [🐛](https://github.com/saadq/resumake/issues?q=author%3ARiseley "Bug reports") | [<img src="https://avatars0.githubusercontent.com/u/37144243?v=4" width="100px;"/><br /><sub><b>Viktor S</b></sub>](https://github.com/vsoren)<br />[💻](https://github.com/saadq/resumake/commits?author=vsoren "Code") | [<img src="https://avatars0.githubusercontent.com/u/6135761?v=4" width="100px;"/><br /><sub><b>mindl3ss</b></sub>](https://github.com/alokpant)<br />[📖](https://github.com/saadq/resumake/commits?author=alokpant "Documentation") | [<img src="https://avatars1.githubusercontent.com/u/41443492?v=4" width="100px;"/><br /><sub><b>Jordan Tranchina</b></sub>](https://github.com/JordanTranchina)<br />[🎨](#design-JordanTranchina "Design") | [<img src="https://avatars3.githubusercontent.com/u/4600541?v=4" width="100px;"/><br /><sub><b>anelook</b></sub>](https://github.com/anelook)<br />[💻](https://github.com/saadq/resumake/commits?author=anelook "Code") [🎨](#design-anelook "Design") | [<img src="https://avatars3.githubusercontent.com/u/7316730?v=4" width="100px;"/><br /><sub><b>jess</b></sub>](http://jessachandler.com)<br />[🔧](#tool-monkeywithacupcake "Tools") |
 | [<img src="https://avatars3.githubusercontent.com/u/5328578?v=4" width="100px;"/><br /><sub><b>esslam</b></sub>](https://esslamcodes.now.sh/)<br />[📖](https://github.com/saadq/resumake/commits?author=Esslamb "Documentation") | [<img src="https://avatars1.githubusercontent.com/u/4947233?v=4" width="100px;"/><br /><sub><b>Nirmal Kumar K S</b></sub>](https://in.linkedin.com/in/ksnirmalkumar)<br />[💻](https://github.com/saadq/resumake/commits?author=nirmalks "Code") | [<img src="https://avatars0.githubusercontent.com/u/20140368?v=4" width="100px;"/><br /><sub><b>Long Ngn</b></sub>](https://medium.com/@longngn)<br />[📖](https://github.com/saadq/resumake/commits?author=longngn "Documentation") | [<img src="https://avatars3.githubusercontent.com/u/15902442?v=4" width="100px;"/><br /><sub><b>Pulasthi Harasgama</b></sub>](https://github.com/pulasthiharasgama)<br />[💻](https://github.com/saadq/resumake/commits?author=pulasthiharasgama "Code") | [<img src="https://avatars2.githubusercontent.com/u/7140640?v=4" width="100px;"/><br /><sub><b>ronakdpatel</b></sub>](https://github.com/ronakdpatel)<br />[🎨](#design-ronakdpatel "Design") [🤔](#ideas-ronakdpatel "Ideas, Planning, & Feedback") | [<img src="https://avatars1.githubusercontent.com/u/19812545?v=4" width="100px;"/><br /><sub><b>Ray</b></sub>](https://twitter.com/rayspock675)<br />[💻](https://github.com/saadq/resumake/commits?author=rayspock "Code") |
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
@@ -81,7 +100,6 @@ This project follows the [all-contributors](https://github.com/kentcdodds/all-co
 Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/resumake#backer)]
 
 <a href="https://opencollective.com/resumake#backers" target="_blank"><img src="https://opencollective.com/resumake/backers.svg?width=890"></a>
-
 
 ### Sponsors
 
@@ -93,6 +111,6 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 <a href="https://opencollective.com/resumake/sponsor/3/website" target="_blank"><img src="https://opencollective.com/resumake/sponsor/3/avatar.svg"></a>
 <a href="https://opencollective.com/resumake/sponsor/4/website" target="_blank"><img src="https://opencollective.com/resumake/sponsor/4/avatar.svg"></a>
 
-
 ## License
+
 MIT © Saad Quadri
